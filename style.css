@@ -1,0 +1,36 @@
+body {
+    font-family: Futura;
+    background-color: rgb(194, 223, 208);
+    color: rgb(74, 78, 77);
+}
+
+header {
+    background-color: rgb(19, 173, 135);
+    color: white;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(141, 201, 186);
+    padding: 0.75em;
+}
+
+nav > a {
+    color: white;
+    font-size: 1.2em;
+    display: inline-table;
+}
+
+h1 {
+    padding: 0.3em;
+}
+
+h2 {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+#carouselControls, #presentation, footer {
+    padding: 2rem;
+}
