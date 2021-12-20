@@ -16,10 +16,16 @@ nav {
     padding: 0.75em;
 }
 
-nav > a {
+nav > a, #donation > a, #joinUsButton > a {
     color: white;
     font-size: 1.2em;
     display: inline-table;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    text-decoration: none;
+    color: rgb(19, 173, 135);
 }
 
 h1 {
@@ -31,6 +37,11 @@ h2 {
     padding-bottom: 1rem;
 }
 
-#carouselControls, #presentation, footer {
-    padding: 2rem;
+#carouselControls, #presentation, footer, #joinUs {
+    padding: 1.5rem;
+}
+
+#instagramLink, #twitterLink, #websiteLink {
+    display: inline-block;
+
 }
