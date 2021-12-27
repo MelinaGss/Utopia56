@@ -37,11 +37,12 @@ h2 {
     padding-bottom: 1rem;
 }
 
-#carouselControls, #presentation, footer, #joinUs {
+
+#carouselControls, #presentation, footer, #joinUs, article, footer > h3 {
     padding: 1.5rem;
 }
 
 #instagramLink, #twitterLink, #websiteLink {
-    display: inline-block;
-
+    display: flex;
+    justify-content: center;
 }
