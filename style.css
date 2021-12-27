@@ -38,11 +38,30 @@ h2 {
 }
 
 
-#carouselControls, #presentation, footer, #joinUs, article, footer > h3 {
+#carouselControls, #presentation, footer, #joinUs, article, #articleCalais > p {
     padding: 1.5rem;
 }
 
 #instagramLink, #twitterLink, #websiteLink {
     display: flex;
     justify-content: center;
+}
+
+#imgFirstArticle, #imgSecondArticle, #imgThirdArticle, footer > h3 {
+    padding-bottom: 0.8rem;
+}
+
+.articlesLinks {
+    color: rgb(74, 78, 77);
+}
+
+.articlesLinks:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.articleEntier > h4, .articleEntier > p {
+    padding: 1.5rem;
+    padding-top: 1.8rem;
+    line-height: 1.7rem
 }
